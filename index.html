@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css" type="text/css">
+    <title>Stock Search </title>
+</head>
+
+<body>
+  <div class="wrapper">
+<!--   <div class="containter-fluid"> -->
+  <div class="containter">
+ 
+      <div class="jumbotron">
+      <h1 align="center"><strong>Stock Search</h1></strong>
+    </div>
+    <div class="row justify-content-center">
+      <input type="text" class="form w-50 mx-3" id="addStock" placeholder=" Add Stock Ticker Symbol Here">
+    <button class="btn btn-primary" id="plusButton"><i class="fas fa-plus mr-1"></i> Add</button>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-sm-2 bg-white text-dark">
+        <div class="row justify-content-center">
+          <h2>Stocks</h2>
+        </div>
+        <div class="justify-content-center" id="listButtons">
+        </div>
+      </div>
+      <div class="col-sm-6 bg-light">
+        <div class="row justify-content-center">
+              <h2>Company Details</h2>
+        </div>
+        <div class="row" id="listInfo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="./assets/index.js"></script>
+</body>
+</html>

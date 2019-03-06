@@ -1,0 +1,12 @@
+.jumbotron {
+	margin-top: 30px;
+	background-image: url("stock-exchange-913956__340.jpg");
+	background-size: cover;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: black;
+
+}
+
+h2 {
+	font-family: "Lucida Console", Monaco, monospace;
+}
