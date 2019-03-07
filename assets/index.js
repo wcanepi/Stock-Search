@@ -51,7 +51,7 @@ const renderInfo = function () {
             const headlineCard = $(`
                 <div class="card my-2 w-100">
                     <div class="card-header">
-                     <strong>Headline #${i+1}</strong>
+                 <strong>Headline #${i+1}</strong>
                         <p class="card-text">${response.news[i].headline}</p>
                         <a href=${response.news[i].url}>Read More</a>
                     </div>
